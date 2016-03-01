@@ -9,7 +9,7 @@
   <default revision="refs/tags/android-5.1.1_r34"
            remote="aosp"
            sync-j="4" />
-  <project path="build" name="platform/build" groups="pdk,tradefed" >
+<project path="build" name="DARKPOP/build" remote="gh" revision="dark-5.1" " groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -21,6 +21,7 @@
   <project path="development" name="platform/development" groups="pdk-cw-fs" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs" />
   <project path="device/qcom/sepolicy" name="kamarush/android_device_qcom_sepolicy" remote="gh" revision="master" groups="pdk" />
+  <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/sony/lagan" name="kamarush/android_device_sony_lagan" remote="gh" revision="android-5.1.1" groups="device" />
   <project path="device/sony/yuga" name="kamarush/android_device_sony_yuga" remote="gh" revision="android-5.1.1"  groups="device" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
