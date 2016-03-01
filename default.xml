@@ -9,7 +9,7 @@
   <default revision="refs/tags/android-5.1.1_r34"
            remote="aosp"
            sync-j="4" />
-<project path="build" name="DARKPOP/build" remote="gh" revision="dark-5.1" " groups="pdk,tradefed" >
+<project path="build" name="DARKPOP/build" remote="gh" revision="dark-5.1" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
